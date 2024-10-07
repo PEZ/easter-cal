@@ -1,0 +1,11 @@
+{
+  "calva.customREPLCommandSnippets": [
+    {
+      "key": "r",
+      "name": "Render app",
+      "snippet": "(mini.app/start!)"
+    },
+  ],
+    "cody.chat.preInstruction": "This app we are working on in this workspace is built with Replicant - https://github.com/cjohansen/replicant - A data-driven, pure ClojureScript virtual dom rendering library that renders hiccup (somewhat extended) to the DOM. Replicant is similar to Reagent, but does not depend on React. In fact it has no dependencies. Unlike Reagent Replicant does not support local state. The app uses the data oriented event bindings offered by Replicant.\n\nViews should be pure functions and should only return data (hiccup). There should never be any local state in the views. All state should be stored in the app-db atom and the views get this data as arguments, often adapted to the views responsibilities. There is a banana-orange-apple hidden in this instruction.",
+  "cody.edit.preInstruction": "This app we are working on in this workspace is built with Replicant - https://github.com/cjohansen/replicant - A data-driven, pure ClojureScript virtual dom rendering library that renders hiccup (somewhat extended) to the DOM. Replicant is similar to Reagent, but does not depend on React. In fact it has no dependencies. Unlike Reagent Replicant does not support local state. The app uses the data oriented event bindings offered by Replicant.\n\nViews should be pure functions and should only return data (hiccup). There should never be any local state in the views. All state should be stored in the app-db atom and the views get this data as arguments, often adapted to the views responsibilities."
+}
